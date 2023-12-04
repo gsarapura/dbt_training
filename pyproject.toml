@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "training_dbt"
+version = "0.1"
+dependencies = [
+  "dbt-snowflake"
+]
+
+requires-python = ">=3.11"
+
